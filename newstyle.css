@@ -1,0 +1,337 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+.H1-style{
+
+font-family:Arial, Helvetica, sans-serif;
+font-size:43px;
+color: rgb(255, 255, 255);
+text-align: left;
+font-weight: 450;
+margin-left: 50px;
+margin-top: 100px;
+
+
+}
+
+
+
+
+
+
+
+h2{
+
+font-size: 45px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:rgb(0, 0, 0);
+text-align: left;
+font-style: normal;
+border-right: 17px solid red;
+border-left: 17px solid red;
+
+padding-left: 20px;
+text-align: left;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(231, 230, 230);
+    background-color:rgb(231, 230, 230);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 18px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+
+
+  .span2{
+
+font-size: 20px;
+color: rgb(255, 255, 255);
+line-height: 0.75rem;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+  }
+
+  .btn{
+
+    
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+width: 90px;
+height: 30px;
+margin: 4px 2px;
+display: inline-block;
+cursor: pointer;
+
+
+
+  }
+
+  .btn1{
+
+border-radius: 4px;
+margin-left: 45px;
+
+
+
+  }
+
+  .btn1colr{
+    background-color: rgb(12, 180, 14);
+    border-color:rgb(12, 180, 14) ;
+    color: white;
+
+  }
+
+  .btn2{
+
+border-radius: 4px;
+margin-left: 20px;
+background-color: rgb(34, 34, 211);
+border-color:rgb(34, 34, 211) ;
+color: white;
+box-shadow: none;
+
+
+
+  }
+
+  .H1-style2{
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:43px;
+    color: black;
+    
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 100px;
+    
+    
+    }
+
+    .sec1{
+
+border-radius: 6px;
+background-color: rgb(35, 82, 235);
+width: 300px;
+height: 300px;
+margin-left: 50px;
+
+
+    }
+
+.ABOUT{
+
+color: rgb(28, 237, 1);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+border-color: rgb(28, 28, 219);
+font-size: 53px;
+font-weight: 300;
+text-align: center;
+
+
+}
+
+.H1-style3{
+
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:43px;
+  color: rgb(255, 255, 255);
+  
+  font-weight: 500;
+padding-left: 520px;
+
+
+ 
+  
+  }
+
+  .H1-style4{
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:28px;
+    color: rgb(255, 255, 255);
+    
+    font-weight: 500;
+  padding-left: 520px;
+  
+  
+   
+    
+    }
+
+    .span3{
+
+      font-size: 28px;
+      color: rgb(240, 240, 240);
+      
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+      
+        }
+
+        .H1-style5{
+
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size:43px;
+          color: black;
+          
+          font-weight: 500;
+        
+        
+        
+         
+          
+          }
+
+          .H1-style7{
+
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:43px;
+            color: black;
+            
+            font-weight: 500;
+          
+          
+          
+           
+            
+            }
+
+
+            .blueborder{
+border-color:rgb(28, 28, 219) ;
+border:2px solid rgb(28, 28, 219);
+
+
+
+            }
+#table{border-collapse: separate;
+  border-spacing: 15px 50px;
+border: 1px solid black;
+}          
+
+.bg {
+  /* The image used */
+  background-image: url();
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+ 
+.H1-style20{
+
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:43px;
+  color: rgb(255, 255, 255);
+  
+  font-weight: 450;
+
+
+
+}
+
+.img{
+width: 100%;
+height: 100%;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px){
+
+.img{
+
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
